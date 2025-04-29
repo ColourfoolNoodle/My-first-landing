@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #ffc0cb;
+  background-color: #f3aab5;
   margin: 0;
   padding: 0;
 }
@@ -30,12 +30,24 @@ nav ul {
 }
 
 nav ul li a {
-  color: #ffc0cb; /* ссылки в шапке */
+  color: #a58891; /* ссылки в шапке */
   text-decoration: none;
   /*text-shadow: 0 0 5px #d4929d;*/
   font-weight: bold;
 }
 
+body {
+  color: #a58891;
+}
+
+footer {
+  background: linear-gradient(to bottom, rgba(255,255,255,0.7), rgba(255,255,255,0.2));
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  z-index: 1000;
+  backdrop-filter: blur(5px); /* красивое размытие под градиент */
+}
 
 .content-box {
   background: linear-gradient(to bottom, rgba(255,255,255,0.2), rgba(255, 255, 255, 0.7));
